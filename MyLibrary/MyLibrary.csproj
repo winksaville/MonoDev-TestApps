@@ -5,8 +5,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{BE5E7A3A-97FE-4623-9D87-298424210CF1}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>MyLIbrary</RootNamespace>
-    <AssemblyName>MyLIbrary</AssemblyName>
+    <RootNamespace>MyLibrary</RootNamespace>
+    <AssemblyName>MyLibrary</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
