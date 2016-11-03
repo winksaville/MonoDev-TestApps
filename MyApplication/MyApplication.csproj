@@ -36,11 +36,11 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\MyLIbrary\MyLibrary.csproj">
+    <ProjectReference Include="..\MyLibrary\MyLibrary.csproj">
       <Project>{BE5E7A3A-97FE-4623-9D87-298424210CF1}</Project>
       <Name>MyLibrary</Name>
     </ProjectReference>
   </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
